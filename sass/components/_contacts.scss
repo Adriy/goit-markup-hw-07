@@ -1,0 +1,24 @@
+.address {
+  font-style: normal;
+}
+
+.contacts-nav.head {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .cont {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  transition: color 250ms var(--timing-function);
+}
+
+.contacts-nav .cont:hover,
+.contacts-nav .cont:focus {
+  color: var(--accent-color);
+}
