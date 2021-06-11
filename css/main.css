@@ -6,7 +6,7 @@
   --button-color: #188ce8;
   --button-color-portfolio: #f5f4fa;
   --border-cards: #eeeeee;
-  --border-cards-customers: #afb1b8;
+  --border-cards-clients: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -145,7 +145,7 @@ img {
 }
 
 .team .social-list__link {
-  fill: var(--border-cards-customers);
+  fill: var(--border-cards-clients);
   transition: background-color 250ms var(--timing-function);
 }
 
@@ -587,15 +587,15 @@ img {
   padding-bottom: 0;
 }
 
-.what-we-do {
+.works {
   display: flex;
 }
 
-.what-we-do__item {
+.works__item {
   position: relative;
 }
 
-.what-we-do__title {
+.works__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -604,7 +604,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.what-we-do__backdrop {
+.works__backdrop {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -616,7 +616,7 @@ img {
   height: 70px;
 }
 
-.what-we-do__item:not(:first-child) {
+.works__item:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -666,7 +666,7 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--border-cards-customers);
+  border: 1px solid var(--border-cards-clients);
   border-radius: 4px;
   margin-bottom: 0;
   transition: border 250ms var(--timing-function);
@@ -686,7 +686,7 @@ img {
 }
 
 .company__icon {
-  fill: var(--border-cards-customers);
+  fill: var(--border-cards-clients);
   transition: fill 250ms var(--timing-function);
 }
 
