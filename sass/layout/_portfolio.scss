@@ -8,32 +8,32 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
 
-.filter-nav .item + .item {
-  margin-left: 8px;
-}
+  .item + .item {
+    margin-left: 8px;
+  }
 
-.filter .button {
-  padding: 6px 22px;
-  border-radius: 4px;
-  font-family: inherit;
-  color: var(--title-text-color);
-  background-color: var(--button-color-portfolio);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: inherit;
+  .button {
+    padding: 6px 22px;
+    border-radius: 4px;
+    font-family: inherit;
+    color: var(--title-text-color);
+    background-color: var(--button-color-portfolio);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: inherit;
 
-  transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+    transition: color 250ms var(--timing-function),
+      background-color 250ms var(--timing-function),
+      box-shadow 250ms var(--timing-function);
 
-  &:hover,
-  &:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover,
+    &:focus {
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
   }
 }
 

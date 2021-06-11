@@ -13,10 +13,10 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
   }
-}
 
-.what-we-do .item + .item {
-  margin-left: 30px;
+  .item + .item {
+    margin-left: 30px;
+  }
 }
 
 .backdrop {

@@ -3,10 +3,10 @@
 
   .item {
     width: 270px;
-  }
 
-  .item + .item {
-    margin-left: 30px;
+    & + .item {
+      margin-left: 30px;
+    }
   }
 
   .thumb {
