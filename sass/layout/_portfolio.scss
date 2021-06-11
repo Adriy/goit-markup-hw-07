@@ -40,7 +40,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  .projects-item {
+  &__item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -60,36 +60,32 @@
       margin-bottom: 0;
     }
   }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+
+  &__text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+  }
+
+  &__thumb {
+    position: relative;
+    overflow: hidden;
+  }
 }
 
-.projects-link {
-  text-decoration: none;
-}
-
-/* .projects {
-  margin-top: 34px;
-} */
-
-.projects-title {
-  color: var(--title-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.projects-text {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.9;
-}
-
-.projects-thumb {
-  position: relative;
-  overflow: hidden;
-}
-
-.projects .backdrop {
+.backdrop {
   position: absolute;
   top: 0;
   left: 0;
@@ -101,14 +97,14 @@
 
   transition: transform 250ms var(--timing-function);
   transform: translateY(100%);
+
+  .projects__link:hover &,
+  .projects__link:focus & {
+    transform: translateY(0);
+  }
 }
 
-.projects-link:hover .backdrop,
-.projects-link:focus .backdrop {
-  transform: translateY(0);
-}
-
-.projects .backdrop-text {
+.backdrop__text {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.55;
