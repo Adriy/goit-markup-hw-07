@@ -656,11 +656,11 @@ img {
   margin-left: 30px;
 }
 
-.customers .list {
+.company {
   display: flex;
 }
 
-.customers .link {
+.company__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -672,20 +672,20 @@ img {
   transition: border 250ms var(--timing-function);
 }
 
-.customers .link:hover, .customers .link:focus {
+.company__link:hover, .company__link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.customers .link:hover .icon,
-.customers .link:focus .icon {
+.company__link:hover .company__icon,
+.company__link:focus .company__icon {
   fill: var(--accent-color);
 }
 
-.customers .item:not(:first-child) {
+.company__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.customers .icon {
+.company__icon {
   fill: var(--border-cards-customers);
   transition: fill 250ms var(--timing-function);
 }
