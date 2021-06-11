@@ -115,7 +115,7 @@ img {
   margin-left: auto;
 }
 
-.contacts-nav .cont {
+.contacts-nav__cont {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -125,7 +125,7 @@ img {
   transition: color 250ms var(--timing-function);
 }
 
-.contacts-nav .cont:hover, .contacts-nav .cont:focus {
+.contacts-nav__cont:hover, .contacts-nav__cont:focus {
   color: var(--accent-color);
 }
 
@@ -702,23 +702,18 @@ img {
   justify-content: space-around;
 }
 
-.footer .cont {
+.cont {
   color: rgba(255, 255, 255, 0.6);
   font-weight: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.footer .cont.mail {
-  display: inline-block;
-  margin-bottom: 9px;
-}
-
-.footer .thumb {
+.thumb {
   margin-left: 70px;
 }
 
-.footer .footer-title {
+.footer-title {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -727,16 +722,21 @@ img {
   color: #ffffff;
 }
 
-.map {
+.contacts-nav__map {
   margin-bottom: 9px;
 }
 
-.map-google {
+.contacts-nav__map-google {
   color: var(--primary-white-color);
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.contacts-nav__cont.mail {
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 /* FOOTER Form */
