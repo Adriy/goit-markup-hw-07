@@ -515,7 +515,7 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
 }
 
-.hero .button {
+.hero__button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -530,11 +530,11 @@ img {
   transition: background-color 250ms var(--timing-function);
 }
 
-.hero .button:hover, .hero .button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--button-color);
 }
 
-.hero-text {
+.hero__text {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 30px;
