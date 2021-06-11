@@ -2,14 +2,19 @@
   display: flex;
   background-color: var(--button-color-portfolio);
 
-  .item {
+  &__description {
+    padding-top: 30px;
+    background-color: var(--primary-white-color);
+  }
+
+  &__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
 
-  .title,
-  .text {
+  &__title,
+  &__text {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -17,16 +22,16 @@
     text-align: center;
   }
 
-  .title {
+  &__title {
     margin-bottom: 10px;
   }
 
-  .text {
+  &__text {
     color: var(--primary-text-color);
     font-weight: normal;
   }
 
-  .item + .item {
+  &__item:not(:first-child) {
     margin-left: 30px;
   }
 }
