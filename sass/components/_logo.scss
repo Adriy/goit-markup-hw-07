@@ -1,8 +1,7 @@
 .logo {
   margin-left: 0;
   display: inline-block;
-  margin-top: 24px;
-  margin-bottom: 25px;
+
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -10,6 +9,17 @@
   line-height: 1.19;
   text-decoration: none;
 }
+
+.header__logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.footer__logo {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .logo__span {
   color: var(--accent-color);
 }
