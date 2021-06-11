@@ -16,9 +16,9 @@
   text-decoration: none;
 
   transition: color 250ms var(--timing-function);
-}
 
-.contacts-nav .cont:hover,
-.contacts-nav .cont:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

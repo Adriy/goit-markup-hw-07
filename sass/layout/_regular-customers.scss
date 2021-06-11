@@ -13,6 +13,16 @@
   margin-bottom: 0;
 
   transition: border 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+
+  &:hover .icon,
+  &:focus .icon {
+    fill: var(--accent-color);
+  }
 }
 
 .customers .item:not(:first-child) {
@@ -21,18 +31,5 @@
 
 .customers .icon {
   fill: var(--border-cards-customers);
-}
-
-.customers .link:hover,
-.customers .link:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.customers .link:hover .icon,
-.customers .link:focus .icon {
-  fill: var(--accent-color);
-}
-
-.customers .icon {
   transition: fill 250ms var(--timing-function);
 }

@@ -30,9 +30,9 @@
   border-radius: 50%;
 
   transition: fill 250ms var(--timing-function);
-}
 
-.modal-button:hover,
-.modal-button:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
