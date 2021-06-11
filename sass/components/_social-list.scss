@@ -34,12 +34,10 @@
   }
 }
 
-.footer {
-  .social-list {
-    display: flex;
-  }
+.footer-list {
+  display: flex;
 
-  .social-list-link {
+  &__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,11 +53,11 @@
       background-color: var(--accent-color);
     }
   }
-  .social-list-item:not(:first-child) {
+  &__item:not(:first-child) {
     margin-left: 10px;
   }
 
-  .social-list-icon {
+  &__icon {
     fill: var(--primary-white-color);
   }
 }
